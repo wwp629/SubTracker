@@ -10,13 +10,13 @@
 		"enabled": true
 	},
 	"vars": {
-		"WEB_ORIGIN": "http://127.0.0.1:8787",
+		"WEB_ORIGIN": "https://subtracker.86629523.xyz",
 		"BASE_CURRENCY": "CNY",
 		"DEFAULT_APP_LOCALE": "zh-CN",
 		"DEFAULT_NOTIFY_DAYS": "3",
 		"EXCHANGE_RATE_PROVIDER": "ExchangeRate-API",
 		"EXCHANGE_RATE_URL": "https://open.er-api.com/v6/latest",
-		"CRON_SCAN": "* * * * *",
+		"CRON_SCAN": "30 * * * *",
 		"CRON_AUTO_RENEW": "2 * * * *",
 		"CRON_RECONCILE_EXPIRED": "10 * * * *",
 		"CRON_REFRESH_RATES": "0 * * * *",
@@ -33,7 +33,7 @@
 	},
 	"triggers": {
 		"crons": [
-			"* * * * *",
+			"30 * * * *",
 			"2 * * * *",
 			"10 * * * *",
 			"0 * * * *"
